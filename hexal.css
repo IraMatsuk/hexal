@@ -132,16 +132,252 @@ span.circle {
     position: absolute;
     border-left: 1px solid black;
 }
+
+/* Portfolio */
+.portfolio-container h1 {
+    width: 209px;
+    height: 22px;
+    color: #d7fcf5;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 4.56px;
+    padding-top: 8px;
+    white-space: nowrap;
+    text-align: justify;
+}
+
+.portfolio-container h2 {
+    width: 249px;
+    height: 17px;
+    color: #20816d;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.56px;
+    white-space: nowrap;
+    text-align: justify;
+}
+
+.person-description p {
+    width: 581px;
+    height: 76px;
+    color: #d7fcf5;
+    font-family: Lato , sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+    text-align: justify;
+}
+
+.person-name {
+    color: rgba(215, 252, 245, 255);
+    position: absolute;
+    top: 68px;
+    right: 492px;
+    bottom: 251px;
+    left: 319px;
+}
+
+.person-character {
+    color: rgba(32, 129, 109, 255);
+    position: absolute;
+    top: 98px;
+    right: 450px;
+    bottom: 226px;
+    left: 321px;
+}
+
+.person-description {
+    color: rgba(215, 252, 245, 255);
+    position: absolute;
+    top: 134px;
+    right: 120px;
+    bottom: 131px;
+    left: 319px;
+}
+
+.social-media {
+    position: absolute;
+    top: 250px;
+    right: 120px;
+    bottom: 67px;
+    left: 753px;
+}
+
+ul.social-media-icons li{
+    display: inline;
+}
+
 /********************************************/
 
 
 /**************** Footer ***********************/
+
 .get-in-touch-container {
-    background: #323232;   
+    background: #323232;
     width: 1020px;
     height: 564px;
-    position: relative;
     margin: 0 auto;
+    position: relative;
+}
+
+.get-in-touch-container p {
+    font-family: "Maven Pro", monospace;
+    font-weight: 100;
+    white-space: nowrap; 
+}
+
+.get-in-touch-head {
+    position: absolute;
+    color: #e0e0e0;
+    width: 168px;
+    height: 22px;
+    font-size: 30px;
+    line-height: 4.56px;
+    top: 75px;
+    right: 731px;
+    bottom: 475px;
+    left: 120px;
+
+}
+.get-in-touch-description {
+    width: 421px;
+    height: 17px;
+    color: #bebebe;
+    font-size: 18px;
+    line-height: 21.56px;
+    position: absolute;
+    top: 94px;
+    right: 476px;
+    bottom: 450px;
+    left: 122px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #bebebe;
+    opacity: 1; /* Firefox */
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+    padding: 5px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #bebebe;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #bebebe;
+}
+
+.name-input {
+    background: #454545;
+    border: none;
+    position: absolute;
+    top: 134px;
+    right: 320px;
+    bottom: 392px;
+    left: 120px; 
+    width:580px;
+    height: 37px;
+    
+}
+
+.email-input {
+    background: url(assets/input.png);
+    border: none;
+    position: absolute;
+    top: 188px;
+    right: 320px;
+    bottom: 338px;
+    left: 120px;
+    width:580px;
+    height: 37px;
+}
+
+.subject-input{
+    background: url(assets/input.png);
+    border: none;
+    position: absolute;
+    top: 242px;
+    right: 320px;
+    bottom: 284px;
+    left: 120px;
+    width:580px;
+    height: 37px;
+}
+
+.textarea-msg {
+    background: url(assets/textarea.png);
+    border: none;
+    resize: none;
+    position: absolute;
+    top: 296px;
+    right: 320px;
+    bottom: 118px;
+    left: 120px;
+    width: 576px;
+    height: 147px;
+}
+
+.send-button {
+    background-color: rgba(46, 179, 152, 255);
+    width: 30px;
+    height: 9px;
+    color: #d7fcf5;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 21.56px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 462px;
+    right: 320px;
+    bottom: 65px;
+    left: 610px;
+    width: 90px;
+    height: 37px;
+    border: none;
+}
+
+.get-in-touch-info {
+    /* Style for "Quisque He" */
+    width: 180px;
+    height: 117px;
+    color: #bebebe;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+    /* Text style for "Quisque He" */
+    color: #e0e0e0;
+    font-family: "Lato - Black";
+    font-weight: 900;
+    /* Text style for "purus dapi" */
+    font-family: "Lato - Regular";
+    font-weight: 400;
+    position: absolute;
+    top: 134px;
+    right: 120px;
+    bottom: 313px;
+    left: 720px;
+    text-align: justify;
+}
+
+.contact-info {
+    font-size: 12pt;
+    color: rgba(190, 190, 190, 255);    
+    position: absolute;
+    top: 297px;
+    right: 156px;
+    bottom: 213px;
+    left: 722px;
+    width: 145px;
+    height: 54px;
+    white-space: nowrap;
+   
 }
 
 .copyright-container {
@@ -151,4 +387,23 @@ span.circle {
     position: relative;
     margin: 0 auto;
 }
+
+.copyright-text {
+    width: 155px;
+    height: 12px;
+    color: #454545;
+    font-family: "Maven Pro Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 6.32px;
+    text-align: justify;
+    position: absolute;
+    top: 19px;
+    right: 826px;
+    bottom: 15px;
+    left: 38px;
+    white-space: nowrap;
+}
+
+
 /********************************************/
