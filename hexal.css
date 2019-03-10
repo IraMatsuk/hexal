@@ -1,0 +1,98 @@
+body{
+    background: white;
+}
+
+
+
+/**************** Header ***********************/
+.navigation {
+    background: #323232;   
+    width: 1020px;
+    height: 63px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+nav a {
+    color: white;
+    display: block; 
+    text-decoration: none; 
+    top: 2.5px;
+}
+
+.header-logo {
+    position: absolute;
+    top: 10px;
+    right: 479px;
+    left: 477px;
+}
+
+header:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-top: 26px solid #323232;
+    position: absolute;
+    left: 50%;
+    top: 63px;
+    transform: translateX(-50%); 
+}
+span.circle {
+    height: 2px;
+    width: 2px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 2.5px;
+    transform: translateX(-50%);
+}
+
+/********************************************/
+
+/**************** Main ***********************/
+.hex-container {
+    background: white; 
+    opacity:0;  
+    width: 1020px;
+    height: 721px;
+    position: relative;
+    margin: 0 auto;
+}
+.portfolio-container {
+    background: rgba(46, 179, 152, 255);   
+    width: 1020px;
+    height: 341px;
+    position: relative;
+    margin: 0 auto;
+}
+/********************************************/
+
+
+/**************** Footer ***********************/
+.get-in-touch-container {
+    background: #323232;   
+    width: 1020px;
+    height: 564px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.copyright-container {
+    background: url(assets/footer.png); 
+    width: 1020px;
+    height: 43px; 
+    position: relative;
+    margin: 0 auto;
+}
+/********************************************/
