@@ -61,8 +61,7 @@ span.circle {
 /********************************************/
 
 /**************** Main ***********************/
-.hex-container {
-    background: white; 
+.hex-container { 
     opacity:0;  
     width: 1020px;
     height: 721px;
@@ -75,6 +74,64 @@ span.circle {
     height: 341px;
     position: relative;
     margin: 0 auto;
+}
+
+
+/* Lines */
+.hex-horizontal-right {
+    width: 410px;
+    top: 11px;
+    right: 580px;
+    left: 30px;
+    position: absolute;
+    border-bottom: 1px solid black;
+}
+
+.hex-horizontal-left {
+    width: 410px;
+    top: 11px;
+    right: 30px;
+    left: 580px;
+    position: absolute;
+    border-bottom: 1px solid black;
+}
+
+.hex-horizontal-bottom {
+    width: 960px;
+    top: 709px;
+    right: 30px;
+    left: 30px;
+    position: absolute;
+    border-bottom: 1px solid black;
+}
+
+.hex-vertical-right-up {
+    top: 141px;
+    right: 99px;
+    height: 104px;
+    position: absolute;
+    border-left: 1px solid black;
+}
+.hex-vertical-left-up {
+    top: 141px;
+    left: 99px;
+    height: 104px;
+    position: absolute;
+    border-left: 1px solid black;
+}
+.hex-vertical-right-down {
+    top: 477px;
+    right: 99px;
+    height: 104px;
+    position: absolute;
+    border-left: 1px solid black;
+}
+.hex-vertical-left-down {
+    top: 477px;
+    left: 99px;
+    height: 104px;
+    position: absolute;
+    border-left: 1px solid black;
 }
 /********************************************/
 
