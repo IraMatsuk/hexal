@@ -17,26 +17,54 @@
     background: #323232;   
 }
 
-nav{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    border: none;
+.navigation-box {
+    position: relative;
+    height: 100%;
+    width: 378px;
+    left: 323px;
+   
 }
 
-nav a {
-    display: block; 
-    top: 2.5px;
+.navigation-box a {
+    font-family: Lato-Bold, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+    font-size: 7.21379pt;
+    text-decoration: none;
     color: white;
-    text-decoration: none; 
+    font-weight: 600;
 }
 
-.header-logo {
+.portfolio-link a {
+    color: rgba(46, 179, 152, 255);
+}
+
+.portfolio-link {
     position: absolute;
+    top: 26px;
+    left: 2px;
+}
+
+.about-link {
+    position: absolute;
+    top: 26px;
+    left: 83px;
+}
+
+.logo {
+    position: absolute;
+    left: 154px;
     top: 10px;
-    right: 479px;
-    left: 477px;
+}
+
+.blog-link {
+    position: absolute;
+    top: 26px;
+    left: 257px;
+}
+
+.touch-link {
+    position: absolute;
+    top: 26px;
+    left: 307px;
 }
 
 header:after {
@@ -50,16 +78,6 @@ header:after {
     border-top: 26px solid #323232;
     transform: translateX(-50%); 
     content: "";
-}
-span.circle {
-    position: absolute;
-    top: 2.5px;
-    display: inline-block;
-    width: 2px;
-    height: 2px;
-    background-color: red;
-    border-radius: 50%;
-    transform: translateX(-50%);
 }
 
 /**************** Main ***********************/
